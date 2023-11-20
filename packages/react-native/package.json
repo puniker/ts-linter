@@ -1,13 +1,15 @@
 {
   "name": "@batura-ts-linter/react-native",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Reglas de linter para React Native",
   "main": "index.js",
   "publishConfig": {
     "access": "public"
   },
   "files": [
-    "index.js"
+    "index.js",
+    ".eslintrc.js",
+    ".prettierrc.js"
   ],
   "scripts": {
     "build": "tsc --composite false"
