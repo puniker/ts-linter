@@ -9,9 +9,7 @@
   "files": [
     "index.js",
     ".eslintrc.js",
-    "../shated-linter/.eslintrc.js",
-    ".prettierrc.js",
-    "../shated-linter/.prettierrc.js"
+    ".prettierrc.js"
   ],
   "scripts": {
     "build": "tsc --composite false"

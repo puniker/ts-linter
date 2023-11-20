@@ -1,5 +1,8 @@
-const { prettier } = require('../shared-linter')
-
 module.exports = {
-  ...prettier
+  arrowParens: 'avoid',
+  bracketSameLine: true,
+  bracketSpacing: false,
+  singleQuote: true,
+  trailingComma: 'all',
+  semi: false,
 }
