@@ -1,6 +1,6 @@
 {
   "name": "@batura-ts-linter/react-native",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Reglas de linter para React Native",
   "main": "index.js",
   "publishConfig": {
