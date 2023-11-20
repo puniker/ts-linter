@@ -1,5 +1,6 @@
 {
   "name": "batura-ts-linter",
+  "version": "0.0.1",
   "description": "",
   "workspaces": {
     "packages": [

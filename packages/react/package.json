@@ -7,7 +7,11 @@
     "access": "public"
   },
   "files": [
-    "index.js"
+    "index.js",
+    ".eslintrc.js",
+    "../shated-linter/.eslintrc.js",
+    ".prettierrc.js",
+    "../shated-linter/.prettierrc.js"
   ],
   "scripts": {
     "build": "tsc --composite false"

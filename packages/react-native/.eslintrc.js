@@ -1,4 +1,4 @@
-const { eslint } = require('shared-config')
+const { eslint } = require('../shared-linter')
 module.exports = {
   ...eslint,
   extends: '@react-native-community',

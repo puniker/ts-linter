@@ -1,4 +1,4 @@
-const { prettier } = require('shared-config')
+const { prettier } = require('../shared-linter')
 
 module.exports = {
   ...prettier

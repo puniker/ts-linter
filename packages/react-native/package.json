@@ -9,7 +9,9 @@
   "files": [
     "index.js",
     ".eslintrc.js",
-    ".prettierrc.js"
+    "../shated-linter/.eslintrc.js",
+    ".prettierrc.js",
+    "../shated-linter/.prettierrc.js"
   ],
   "scripts": {
     "build": "tsc --composite false"
@@ -25,5 +27,5 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "prettier": "^3.1.0"
   },
-  "gitHead": "a2a033d3774840c4824ad29d29beb1cbba673da7"
+  "gitHead": "82830c64b593912435470884024bbeeacb7d4634"
 }
