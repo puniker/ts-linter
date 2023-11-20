@@ -2,8 +2,7 @@
   "$schema": "node_modules/lerna/schemas/lerna-schema.json",
   "version": "independent",
   "packages": [
-    "packages/react-native",
-    "packages/react"
+    "packages/react-native"
   ],
   "npmClient": "npm"
 }
