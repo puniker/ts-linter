@@ -1,0 +1,22 @@
+{
+  "name": "batura-ts-linter",
+  "description": "",
+  "workspaces": {
+    "packages": [
+      "packages/react",
+      "packages/react-native",
+      "packages/shared-linter"
+    ]
+  },
+  "scripts": {
+    "build": "lerna run build",
+    "publish": "npm publish --access public",
+    "version": "lerna version"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lerna": "^7.4.2"
+  }
+}

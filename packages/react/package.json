@@ -1,0 +1,25 @@
+{
+  "name": "@batura-ts-linter/react",
+  "version": "0.0.1",
+  "description": "Reglas de linter para React Native",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "build": "tsc --composite false"
+  },
+  "author": "Iker Sastre",
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.11.0",
+    "eslint": "^8.54.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "^3.1.0"
+  }
+}
